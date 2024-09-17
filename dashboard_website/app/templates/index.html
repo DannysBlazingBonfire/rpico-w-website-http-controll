@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/static/dashboard_logic.js"></script>
+    <link rel="stylesheet" href="/static/dashboard_style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    
+    <div>
+        <h1>Welcome to the Dashboard</h1>
+    </div>
+
+    <div class="lightButtons">
+        <div class="center">
+            <h2>LED control</h2>
+            <input type = "button" onclick="updateLed('on')" value="turn light on">
+            <input type = "button" onclick="updateLed('off')" value="turn light off"> 
+            <p id="status"></p>
+        </div> 
+    </div>
+
+</body>
+</html>

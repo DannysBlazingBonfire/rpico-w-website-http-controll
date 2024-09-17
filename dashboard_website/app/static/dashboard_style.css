@@ -1,0 +1,47 @@
+
+body {
+    background-color: #638d57;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.testImage {
+    background-image: url();
+    padding: 15px;
+    border: 10px;
+}
+
+.addedDevice {
+    /* styling for added devices */
+}
+
+.lightButtons {
+    text-align: center;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+/* phone Layout here */
+@media only screen and (min-width: 400px) {
+    
+}
